@@ -1,0 +1,308 @@
+body{
+    background:#f0e7ce;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    margin-top: 30px;
+}
+
+header .nav{
+    min-height: 80px;
+    overflow: hidden;
+    background: white;
+}
+
+/* -- LOGO -- */
+
+header .logo h2, header .logo span, header .logo p{
+ font-size: 16px;
+ display: inline-block;
+ margin: 0;
+}
+
+header .logo h2{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+header .logo .icono{
+    color: #bfbfbf;
+}
+
+header .logo p{
+    color: #777777;
+}
+
+/* -- NAV -- */
+
+header .menu{
+    padding: 0;
+}
+
+header .menu a{
+    display: block;
+    padding:  0 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+header .menu a div span{
+    font-weight: 600;
+}
+
+header .menu .c-1{ background: #ee7983; }
+
+header .menu .c-2{ background: #e84855; }
+
+header .menu .c-3{ background: #be3b46; }
+
+header .menu .c-1:hover{ background: #ec6973; }
+
+header .menu .c-2:hover{ background: #d3424e; }
+
+header .menu .c-3:hover{ background: #9c313a; }
+
+
+/* -- Slider -- */
+
+.slider{
+    margin-bottom: 40px;
+}
+
+.slider .col{
+    padding: 0;
+}
+
+/* -- Portafolio -- */
+.portafolio{
+    background: white;
+    border-top: 5px solid #e84855;
+    padding: 0 20px;
+}
+
+.portafolio .titulo{
+    padding: 40px 0;
+    text-align: center;
+    color: #be3b46;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.portafolio .galeria .contenedor-imagen{
+    margin-bottom: 40px;
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.portafolio .galeria .contenedor-imagen a{
+    background: #ee7983;
+    display: inline-block;
+}
+
+.portafolio .galeria .contenedor-imagen:hover img{
+    opacity: .3;
+}
+
+.portafolio .modal-dialog{
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1000px;
+}
+
+.portafolio .modal-content{
+    width: auto;
+}
+
+/* -- ACERCA DE -- */
+
+.acerca-de{
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.acerca-de .foto{
+    text-align: center;
+}
+
+.acerca-de .foto img{
+    margin-bottom: 30px;
+}
+
+.acerca-de .foto .nombre{
+    color: #545454;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.acerca-de .info .titulo{
+    color: #be3b46;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.acerca-de .info .resumen{
+    letter-spacing: 1px;
+}
+
+.acerca-de .info .label{
+    font-size: 18px;
+    font-weight: 600;
+    color: #be3b46;
+    margin-bottom: 10px;
+}
+
+.acerca-de .info .progress{
+    background: #fafafa;
+    border-radius: 0;
+    margin-bottom: 15px;
+    height: 25px;
+}
+
+.acerca-de .info .progress .progress-bar{
+    background: #e84855;
+    line-height: 25px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* -- CONTACTO -- */
+.contacto {
+    padding: 40px 0;
+    border-top: 1px solid #fdfaf1;
+    border-bottom: 1px solid #fdfaf1;
+    margin-bottom: 40px;
+}
+
+.contacto .titulo{
+    color: #be3b46;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contacto .form-group{
+    margin-bottom: 0;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea{
+    padding: 15px;
+    border: none;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.formulario textarea{
+    height: 150px;
+    min-height: 150px;
+    max-height: 250px;
+}
+
+.formulario .boton{
+    background: #e84855;
+    border: none;
+    padding: 7px 30px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    width: auto;
+    border-radius: 3px;
+}
+
+.formulario .boton:hover{
+    background: #d3424e;
+}
+
+/* -- Footer -- */
+
+.redes-sociales{
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+.redes-sociales .icono{
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+    background: #cbcbcb;
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: all .3 ease;
+}
+
+.redes-sociales .twitter {background: #1da1f2;}
+.redes-sociales .instagram {background: #e1306c;}
+.redes-sociales .facebook {background: #3b5998;}
+
+.redes-sociales .twitter:hover {background: #46b2f4;}
+.redes-sociales .instagram:hover {background: #e65586;}
+.redes-sociales .facebook:hover {background: #5e77aa;}
+
+
+/* -- MEDIAQUERIES -- */
+
+/* -- Dispositivo extra largo xl -- */
+@media screen and (max-width:1199px){}
+
+/* -- Dispositivo largo lg -- */
+@media screen and (max-width:991px){
+    .logo{
+        height: 76px;
+    }
+
+    .menu{
+        min-height: 76px;
+    }
+
+    .menu a{
+        width: 100%;
+    }
+
+    .menu a div{
+        width: 100%;
+    }
+
+    .portafolio .galeria .contenedor-imagen:nth-child(1){order:1;}
+    .portafolio .galeria .contenedor-imagen:nth-child(2){order:3;}
+    .portafolio .galeria .contenedor-imagen:nth-child(3){order:6;}
+    .portafolio .galeria .contenedor-imagen:nth-child(4){order:2;}
+    .portafolio .galeria .contenedor-imagen:nth-child(5){order:5;}
+    .portafolio .galeria .contenedor-imagen:nth-child(6){order:4;}
+    .portafolio .galeria .contenedor-imagen:nth-child(7){order:7;}
+
+    .modal .modal-dialog{
+        width: 90%;
+    }
+
+    .modal .modal-dialog .modal-content img{
+        width: 100%;
+    }
+}
+
+/* -- Dispositivo medio md -- */
+@media screen and (max-width:767px){}
+
+/* -- Dispositivo pequeño sm -- */
+@media screen and (max-width:575px){
+    header{
+        margin-top: 0;
+    }
+
+    header .logo h2,
+    header .logo p{
+        font-size: 12px;
+    }
+}
